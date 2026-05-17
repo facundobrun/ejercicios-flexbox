@@ -1,0 +1,65 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.campo {
+    display: flex;
+    align-items: center;   
+    gap: 15px;
+}
+
+.campo label {
+    flex: 0 0 120px; 
+    color: #e0e0e0;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left; 
+}
+
+.campo input {
+    flex: 1; 
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #4a8ade;
+    background-color: #333;
+    box-shadow: 0 0 0 2px rgba(74, 138, 222, 0.2);
+}
+
+.btn-enviar {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+.btn-enviar:hover {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+    color: #121212; 
+    box-shadow: 0 4px 12px rgba(241, 196, 15, 0.3); 
+}

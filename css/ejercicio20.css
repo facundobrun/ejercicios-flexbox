@@ -1,0 +1,32 @@
+.chat {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    background-color: #121212;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    max-width: 500px; 
+}
+
+.msg {
+    max-width: 70%;  
+    padding: 12px 18px;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    word-wrap: break-word; 
+}
+
+.propio {
+    align-self: flex-end;
+    background-color: #4a8ade;
+    color: white;
+    border-radius: 15px 15px 0 15px; 
+}
+
+.ajeno {
+    align-self: flex-start;   
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border-radius: 15px 15px 15px 0;
+}

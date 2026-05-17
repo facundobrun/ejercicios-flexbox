@@ -1,0 +1,21 @@
+.contenedor {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 400px;
+    height: 400px;
+    background-color: #f0f4f8; 
+    border: 1px solid #d9e2ec;
+    border-radius: 10px;
+}
+
+.caja {
+    background-color: #4a8ade;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 20px 40px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(74, 138, 222, 0.3);
+}
